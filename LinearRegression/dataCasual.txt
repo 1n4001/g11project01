@@ -1,0 +1,49 @@
+Casual riders fit
+eta = 0.0001
+n_iter = 10000
+polynomial being fit: y(x,w) = w0, w1 * x, w2 * x^2
+
+Dataset00
+				 w0	      w1	  w2
+weights_GD_registered	[ 0.1113234   0.02524542 -0.00433488]
+weights_ML_registered	[ 0.1115258   0.0248221  -0.00401809]
+error_GD	0.0701015673844
+error_GD_RMS	0.0374437090536
+error_ML	0.0714256229151
+error_ML_RMS	0.0377956671895
+
+Dataset01
+				 w0	      w1	  w2
+weights_GD_registered	[ 0.10669112  0.02837231 -0.00476792]
+weights_ML_registered	[ 0.10686818  0.02794483 -0.00449964]
+error_GD	0.0968754800523
+error_GD_RMS	0.0440171512146
+error_ML	0.0963446042167
+error_ML_RMS	0.0438963789433
+
+Dataset02
+				  w0	      w1	  w2
+weights_GD_registered	[ 0.10368013  0.02750775 -0.00444546]
+weights_ML_registered	[ 0.10365743  0.02743108 -0.00434189]
+error_GD	0.181757772088
+error_GD_RMS	0.0602922502628
+error_ML	0.180775038904
+error_ML_RMS	0.0601290344017
+
+Dataset03
+				  w0	      w1	  w2
+weights_GD_registered	[ 0.10737054  0.02666534 -0.00442838]
+weights_ML_registered	[ 0.10724418  0.02676853 -0.00430862]
+error_GD	0.115859423515
+error_GD_RMS	0.0481371838635
+error_ML	0.115161653419
+error_ML_RMS	0.047992010464
+
+Dataset04
+				  w0	      w1	  w2
+weights_GD_registered	[ 0.11177775  0.02218591 -0.00356216]
+weights_ML_registered	[ 0.11175547  0.0221577  -0.00355403]
+error_GD	0.0763687369182
+error_GD_RMS	0.0390816419609
+error_ML	0.0763901676172
+error_ML_RMS	0.0390871251481
