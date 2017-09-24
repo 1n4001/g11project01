@@ -97,5 +97,5 @@ with tf.Session() as sess:
 
     plt.plot(test_X, test_Y, 'bo', label='Testing data')
     plt.legend()
-    plt.title("Testing cost: {}, Abs mean square loss diff: {}".format(testing_cost,abs(training_cost-testing_cost)))
+    plt.title("Testing cost: {0:.5f}, Abs mean square loss diff: {1:.5f}".format(testing_cost,abs(training_cost-testing_cost)))
     plt.savefig("fittedLineAgainstTest.png")
