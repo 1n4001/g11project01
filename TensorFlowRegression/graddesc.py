@@ -86,8 +86,6 @@ with tf.Session() as sess:
     # Graphic display
     plt.plot(train_X, train_Y, 'ro', label='Original data')
     plt.plot(train_X, sess.run(W) * train_X + sess.run(b), label='Fitted line vs Training')
-    plt.legend()
-    plt.savefig("fittedLineAgainstTraining.png")
 
     print("Testing... (Mean square loss Comparison)")
     testing_cost = sess.run(
@@ -98,6 +96,6 @@ with tf.Session() as sess:
         training_cost - testing_cost))
 
     plt.plot(test_X, test_Y, 'bo', label='Testing data')
-    plt.plot(train_X, sess.run(W) * train_X + sess.run(b), label='Fitted line vs Testing')
     plt.legend()
+    plt.title("Testing cost: {}, Abs mean square loss diff: {}".format(testing_cost,abs(training_cost-testing_cost)))
     plt.savefig("fittedLineAgainstTest.png")
