@@ -1,0 +1,12 @@
+Registered riders fit
+eta = 0.0001
+n_iter = 10000
+polynomial being fit: y(x,w) = w0, w1 * x, w2 * x^2
+\Test
+				  w0	      w1	  w2
+weights_GD_registered	[ 0.13007668  0.0235366  -0.00377747]
+weights_ML_registered	[ 0.13016799  0.02329619 -0.00373254]
+error_GD	0.105813009328
+error_GD_RMS	0.0411461802509
+error_ML	0.105836458286
+error_ML_RMS	0.0411507391497
